@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    /*font-family: 'Montserrat' 'Sans-serif'*/
+    background-color: #C8A2C8;
+    font-weight: 200;
+}
+#variable{
+    font-family: 'Montserrat' 'Sans-serif';
+      font-optical-sizing: auto;
+      font-weight: 453;
+      font-style: normal;
+}
+
+div{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin-bottom: 10px;
+    border: 3px solid white;
+    border-radius: 10%;
+}
+
+#negro{
+    background-color: blue;
+}
+
+#tercero{
+    border-radius: 50%;
+    background-color: red;
+}
+
+#cuarto{
+    background-color: blue;
+}
+
+#quinto{
+    border-radius: 50%;
+    background-color: red;
+}
+
+#sexto{
+    background-color: green;
+}
