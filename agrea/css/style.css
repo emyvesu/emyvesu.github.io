@@ -8,7 +8,7 @@
             --shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         }
         
-        /* Estilos generales */
+
         * {
             margin: 0;
             padding: 0;
@@ -29,7 +29,7 @@
             padding: 0 15px;
         }
         
-        /* Header */
+
         header {
             background-color: var(--color-light);
             box-shadow: var(--shadow);
@@ -96,7 +96,7 @@
             background-color: var(--color-dark);
         }
         
-        /* Hero Section */
+
         .hero {
             background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://images.unsplash.com/photo-1555507036-ab794f27d2e9?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');
             background-size: cover;
@@ -123,7 +123,7 @@
             margin-bottom: 30px;
         }
         
-        /* Sección de productos destacados */
+
         .featured-products {
             padding: 80px 0;
         }
@@ -197,7 +197,7 @@
             font-size: 1.2rem;
         }
         
-        /* Sección sobre nosotros */
+
         .about {
             background-color: var(--color-primary);
             padding: 80px 0;
@@ -229,7 +229,7 @@
             justify-content: center;
         }
         
-        /* Sección testimonios */
+
         .testimonials {
             padding: 80px 0;
         }
@@ -268,7 +268,7 @@
             justify-content: center;
         }
         
-        /* Footer */
+
         footer {
             background-color: var(--color-dark);
             color: var(--color-light);
@@ -332,7 +332,7 @@
             border-top: 1px solid rgba(255, 255, 255, 0.1);
         }
         
-        /* Responsive */
+ 
         @media (max-width: 768px) {
             .header-container {
                 flex-direction: column;
@@ -349,4 +349,5 @@
             .about-content {
                 flex-direction: column;
             }
+
         }
